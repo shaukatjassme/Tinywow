@@ -1,12 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-import { Navbar } from './Components/Navbar';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+import NavbarNew from './Components/NavbarNew';
+import Headcomp from './Components/Headcomp';
+import  Footercomp  from './Components/Footercomp';
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
-   
-    <Navbar/>
+    <>
+     <Headcomp />
+     <NavbarNew/>
+     <Footercomp />
+     </>
+
   );
 }
 
